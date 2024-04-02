@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div id="navBar">
+            <ul>
+                <li class="navbarLeft">Gourmet au Catering</li>
+                <li class="navbarRight"><a href="#contact">Contact</a></li>
+                <li class="navbarRight"><a href="#menu">Menu</a></li>
+                <li class="navbarRight"><a href="#about">About</a></li>
+                <li class="navbarRight"><a href="#home">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section-->
+    <section id="home">
+        <div>
+            <img src="assets/hamburger.jpg" alt="hamburger">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div id="aboutSection">
+            <div id="aboutImage">
+                <img src="assets/tablesetting2.jpg" alt="food table setting" width="500px">
+            </div>
+            <div id="aboutContent">
+                <h1>About Catering</h1>
+                <h5>Tradition since 1889</h5>
+                <p>Established in New York under the leadership of Mr. Smith, this Catering has been a cornerstone of culinary excellence since its inception. Leveraging extensive experience, our founder's goal was to create unforgettable dining experiences infused with innovation and taste. We exclusively utilize fresh, seasonal ingredients to ensure that every dish is bursting with vibrant flavors and culinary ingenuity.</p>
+                <p>At the Catering, our driving force is a dedication to excellence and a fervent commitment to delivering unmatched dining experiences. Our meticulous attention to detail extends to every facet of our service, from careful menu curation to flawless execution. With a focus on quality, we strive to exceed expectations and leave a lasting impression on every palate we serve.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Menu -->
+    <section id="menu">
+        <div id="menuSection">
+            <div id="menuContent">
+                <h1>Our Menu</h1>
+                <h3>Bread Basket</h3>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <h3>Honey Almond Granola with Fruits</h3>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <h3>Belgian Waffle</h3>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                <h3>Scrambled eggs</h3>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <h3>Blueberry Pancakes</h3>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+            <div id="menuImage">
+                <img src="assets/menu.jpg" alt="menu" width="400px">
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+
+    <!--Contact Section -->
+    <section id="contact">
+        <div id="contactSection">
+            <div id="contactInfo">
+                <h1>Contact</h1>
+                <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+                <p>You can send us a message here:</p>
+                <p><i class="fa-solid fa-phone"></i> 00553123-2323</p>
+                <p><i class="fa-solid fa-envelope"></i> catering@catering.coms</p>
+            </div>
+            <div id="contactForm">
+                <form action="form.html" method="get">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <br>
+                    <input type="number" name="number" min="1" max="100" placeholder="How many people?" required>
+                    <br>
+                    <input type="datetime-local" name="datetime" value="2024-08-03T20:00" required>
+                    <br><br>
+                    <textarea name="comment" cols="3" rows="1" placeholder="Message / Special requirements" required></textarea>
+                    <br>
+                    <input type="submit" value="SEND MESSAGE" id="button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footerSection">
+        <div id="footerContent">
+            <h3>Address</h3>
+            <p>Catering Service, 42nd Living St, 43043 New York, NY</p>
+        </div>
+        <div id="footerIcons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

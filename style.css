@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#navBar > ul {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navBar li {
+    display: inline;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#navBar .navbarRight {
+    float: right;
+    padding: 18px 35px 0px 0px;
+}
+
+#navBar .navbarLeft {
+    float: left;
+    padding: 18px 0px 0px 25px;
+    letter-spacing: 2px;
+}
+
+#navBar a:hover{
+    padding: 10px 20px;
+    background-color: rgb(158, 127, 189);
+    color: black;
+    font-weight: bold;
+}
+
+
+/* About Section */
+
+#aboutSection {
+    padding-bottom: 150px;
+}
+
+#aboutSection #aboutImage {
+    float: left;
+    margin: 80px 0px 0px 250px;
+}
+
+#aboutSection #aboutContent {
+    text-align: left;
+    margin-right: 250px;
+    margin-left: 800px;
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+#aboutSection #aboutContent > h1, h5 {
+   text-align: center;
+   letter-spacing: 3px;
+}
+
+#aboutSection #aboutContent > h5 , p {
+    padding-top: 20px;
+    line-height: 1.5em;
+}
+
+/* Menu Section */
+
+#menuSection {
+    background-color: rebeccapurple;
+    margin-top: 100px;
+    padding-bottom: 800px;
+}
+
+#menuSection > #menuImage {
+    float: right;
+    margin: 80px 200px 0px 0px;
+}
+
+#menuSection > #menuContent {
+    float: left;
+    margin: 25px 0px 0px 230px;
+    font-size: 18px;
+}
+
+#menuContent > p {
+   padding: 10px 0px 50px 0px;
+}
+
+#menuContent > h1 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#menuContent > h1 , h3 {
+    letter-spacing: 4px;
+    font-family: "Playfair Display", serif;
+}
+
+/* Contact Section */
+
+#contactSection {
+    margin: 100px 200px 70px 200px;
+}
+
+#contactSection > #contactInfo {
+    font-size: 18px;
+}
+
+#contactInfo > h1 {
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+#contactSection > #contactForm {
+    margin-top: 30px;
+}
+
+#contactForm  > form > input , textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+#contactForm > form > #button {
+    padding: 12px;
+    background-color: rgb(100, 46, 154);
+    border: none;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#contactForm > form > #button:hover {
+    padding: 13px;
+    background-color: rgb(113, 72, 155);
+}
+
+
+/* Footer Section */
+
+#footerSection {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 200px;
+}
+
+#footerContent  {
+    float: left;   
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#footerIcons  {
+    float: right;
+    margin-right: 200px;
+    margin-top: 90px;
+}
+
+#footerSection > #footerContent {
+    color: rgb(52, 11, 93);
+    font-weight: 600;
+    width: 150px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#footerIcons .fa-brands {
+    color: black;
+    font-size: 20px;
+}
